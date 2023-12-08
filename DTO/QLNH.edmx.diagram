@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="2ac783ee28a94dcca6ec15bf3a094108" Name="Diagram1">
+        <EntityTypeShape EntityType="HeThongKinhDoanhNhaHangModel.BANAN" Width="1.5" PointX="6" PointY="2.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="HeThongKinhDoanhNhaHangModel.BANPHUCVU" Width="1.5" PointX="3" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HeThongKinhDoanhNhaHangModel.CHITIETBANPHUCVU" Width="1.5" PointX="5.25" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="HeThongKinhDoanhNhaHangModel.CHITIETCALAM" Width="1.5" PointX="3.75" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="HeThongKinhDoanhNhaHangModel.CHITIETDATBAN" Width="1.5" PointX="8.25" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="HeThongKinhDoanhNhaHangModel.HOADON" Width="1.5" PointX="8.25" PointY="10.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="HeThongKinhDoanhNhaHangModel.KHACHHANG" Width="1.5" PointX="0.75" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="HeThongKinhDoanhNhaHangModel.LOAIMON" Width="1.5" PointX="0.75" PointY="2" IsExpanded="true" />
+        <EntityTypeShape EntityType="HeThongKinhDoanhNhaHangModel.LUONGNHANVIEN" Width="1.5" PointX="3" PointY="11.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="HeThongKinhDoanhNhaHangModel.MONAN" Width="1.5" PointX="3" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HeThongKinhDoanhNhaHangModel.NHANVIEN" Width="1.5" PointX="3" PointY="14.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HeThongKinhDoanhNhaHangModel.PHANCONGCALAM" Width="1.5" PointX="6" PointY="9.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="HeThongKinhDoanhNhaHangModel.TAIKHOAN" Width="1.5" PointX="0.75" PointY="9.375" IsExpanded="true" />
+        <AssociationConnector Association="HeThongKinhDoanhNhaHangModel.FK_CHITIETDATBAN_BANAN" ManuallyRouted="false" />
+        <AssociationConnector Association="HeThongKinhDoanhNhaHangModel.FK_BANPHUCVU_KHACHHANG" ManuallyRouted="false" />
+        <AssociationConnector Association="HeThongKinhDoanhNhaHangModel.FK_BANPHUCVU_TAIKHOAN" ManuallyRouted="false" />
+        <AssociationConnector Association="HeThongKinhDoanhNhaHangModel.FK_CHITIETBANPHUCVU_BANPHUCVU" ManuallyRouted="false" />
+        <AssociationConnector Association="HeThongKinhDoanhNhaHangModel.FK_CHITIETDATBAN_BANPHUCVU" ManuallyRouted="false" />
+        <AssociationConnector Association="HeThongKinhDoanhNhaHangModel.FK_HOADON_BANPHUCVU" ManuallyRouted="false" />
+        <AssociationConnector Association="HeThongKinhDoanhNhaHangModel.FK_CHITIETBANPHUCVU_MONAN" ManuallyRouted="false" />
+        <AssociationConnector Association="HeThongKinhDoanhNhaHangModel.FK_PHANCONGCALAM_CHITIETCALAM" ManuallyRouted="false" />
+        <AssociationConnector Association="HeThongKinhDoanhNhaHangModel.FK_HOADON_TAIKHOAN" ManuallyRouted="false" />
+        <AssociationConnector Association="HeThongKinhDoanhNhaHangModel.FK_MONAN_LOAIMON" ManuallyRouted="false" />
+        <AssociationConnector Association="HeThongKinhDoanhNhaHangModel.FK_LUONGNHANVIEN_TAIKHOAN" ManuallyRouted="false" />
+        <AssociationConnector Association="HeThongKinhDoanhNhaHangModel.FK_NHANVIEN_TAIKHOAN" ManuallyRouted="false" />
+        <AssociationConnector Association="HeThongKinhDoanhNhaHangModel.FK_PHANCONGCALAM_TAIKHOAN" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
